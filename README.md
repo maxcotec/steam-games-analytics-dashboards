@@ -2,6 +2,9 @@
 
 A Streamlit-based interactive dashboard for analyzing Steam gaming data from MySQL database.
 
+Youtube tutorial Link: https://youtu.be/fuqF60beLdk?si=N8f4nlY34WZnqEmd
+![youtube video.png](youtube%20video.png)
+
 ## ⚠️ Important note
 This repository builds the Gold Layer dashboards and visualizations for Steam games analytics. It depends on the data collected by the Airflow dag in this [airflow-steam-ingestion](https://github.com/maxcotec/airflow-steam-ingestion/) project (Brown and Silver stages).  
 Make sure you have run the Airflow DAGs extensively for atleast 3 to 4 days, to gather enough historical and current data before running this dashboard, otherwise some charts may not display meaningful insights.
